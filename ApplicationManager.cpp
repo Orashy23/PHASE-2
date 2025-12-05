@@ -56,6 +56,10 @@ void ApplicationManager::ExecuteAction(ActionType ActType)
 		//TODO: Create Save Action here
 		pAct = new Save(this);
 		break;
+
+	case LOAD:
+		pAct = new Load(this);
+		break;
     }
 
     if (pAct)
@@ -171,4 +175,5 @@ void ApplicationManager::LoadAllConnections(ifstream& in)
 {
     // Same — fill later when connections exist
 }
+
 

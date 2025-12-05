@@ -16,6 +16,8 @@ class ApplicationManager
 private:
 	int CompCount;		//Actual number of Components
 	Component* CompList[MaxCompCount];	//List of all Components (Array of pointers)
+Component* CopiedComponent; // stores the last copied component
+
 
 	Output* OutputInterface; //pointer to the Output Clase Interface
 	Input* InputInterface; //pointer to the Input Clase Interface
@@ -47,6 +49,8 @@ public:
 	void ClearCircuit();                        // remove all components
 	void SaveAllComponents(ofstream& out);      // write components to file
 	void LoadAllComponents(ifstream& in);       // read components from file
+    void SetCopiedComponent(Component* comp) { CopiedComponent = comp; }
+    Component* GetCopiedComponent() { return CopiedComponent; }
 
 
 	// (Optional for wires/connections if your project uses them)
@@ -59,3 +63,4 @@ public:
 };
 
 #endif
+

@@ -1,0 +1,27 @@
+#include "Load.h"
+#include "ApplicationManager.h"
+#include "GUI/Input.h"
+#include "GUI/Output.h"
+
+Load::Load(ApplicationManager* pApp) : Action(pApp) {}
+Load::~Load() {}
+
+void Load::ReadActionParameters()
+{
+    Output* pOut = pManager->GetOutput();
+    Input* pIn = pManager->GetInput();
+
+    pOut->PrintMsg("Enter file name to load: ");
+    m_Filename = pIn->GetString(pOut);
+
+    pOut->ClearStatusBar();
+}
+
+void Load::Execute()
+{
+    ReadActionParameters();
+    pManager->LoadCircuit(m_Filename);
+}
+
+void Load::Undo() {}
+void Load::Redo() {}

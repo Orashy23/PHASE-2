@@ -83,7 +83,8 @@ ActionType Input::GetUserAction() const
 			case ITM_EXIT: return EXIT;
 			case ITM_SIM_MODE: return SIM_MODE;
 					
-				//test omar
+				
+				//test again 
 			
 
 			default: return DSN_TOOL;	//A click on empty place in desgin toolbar

@@ -14,11 +14,6 @@ class AND2:public Gate
 public:
 	AND2(const GraphicsInfo &r_GfxInfo, int r_FanOut);
 
-    // ----------------------------
-    // Added for Copy/Paste
-    // ----------------------------
-    AND2(const AND2 &other);             //Copy constructor
-    Component* Clone() override;         //Clone method
 
 	virtual void Operate();	//Calculates the output of the AND gate
 	virtual void Draw(Output* pOut);	//Draws 2-input gate
@@ -33,9 +28,10 @@ public:
     // Added for Copy/Paste
     // ---------------------------
     Component* Clone() override; 
-
+    AND2(const AND2 &other);             //Copy constructor
 };
 
 
 #endif
+
 

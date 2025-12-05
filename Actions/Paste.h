@@ -1,6 +1,6 @@
 #pragma once
 #ifndef _PASTE_H
-#define _PASTE_H
+#define _PASTE_H   //test bel laptop 
 
 #include "Action.h"
 

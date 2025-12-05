@@ -347,3 +347,5 @@ Output::~Output()
 {
 	delete pWind;
 }
+
+//test

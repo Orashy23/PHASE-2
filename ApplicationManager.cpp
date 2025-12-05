@@ -51,6 +51,11 @@ void ApplicationManager::ExecuteAction(ActionType ActType)
     case EXIT:
         // TODO
         break;
+		
+	case SAVE:
+		//TODO: Create Save Action here
+		pAct = new Save(this);
+		break;
     }
 
     if (pAct)
@@ -166,3 +171,4 @@ void ApplicationManager::LoadAllConnections(ifstream& in)
 {
     // Same — fill later when connections exist
 }
+

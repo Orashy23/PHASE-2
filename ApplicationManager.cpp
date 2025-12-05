@@ -8,6 +8,7 @@
 ApplicationManager::ApplicationManager()
 {
     CompCount = 0;
+    CopiedComponent = nullptr;   // <-- optional initialization added
 
     for (int i = 0; i < MaxCompCount; i++)
         CompList[i] = NULL;
@@ -112,7 +113,6 @@ ApplicationManager::~ApplicationManager()
     delete InputInterface;
 }
 
-
 //==============================
 // Clear Circuit
 //==============================
@@ -126,7 +126,6 @@ void ApplicationManager::ClearCircuit()
     CompCount = 0;
 }
 
-
 //==============================
 // Save Components
 //==============================
@@ -139,7 +138,6 @@ void ApplicationManager::SaveAllComponents(ofstream& out)
         CompList[i]->Save(out);   // Call component Save()
     }
 }
-
 
 //==============================
 // Load Components
@@ -165,16 +163,13 @@ void ApplicationManager::LoadAllComponents(ifstream& in)
     }
 }
 
-
 //==============================
 // Save Connections 
 //==============================
 void ApplicationManager::SaveAllConnections(ofstream& out)
 {
-   
-	// Same — fill later when connections exist
+    // Same — fill later when connections exist
 }
-
 
 //==============================
 // Load Connections 
@@ -183,6 +178,3 @@ void ApplicationManager::LoadAllConnections(ifstream& in)
 {
     // Same — fill later when connections exist
 }
-
-
-

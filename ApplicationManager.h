@@ -22,17 +22,14 @@ private:
 
 
 public:
-
-
-public:	
 	ApplicationManager(); //constructor
 
 	//Reads the required action from the user and returns the corresponding action type
 	ActionType GetUserAction();
-	
+
 	//Creates an action and executes it
 	void ExecuteAction(ActionType);
-	
+
 	void UpdateInterface();	//Redraws all the drawing window
 
 	//Gets a pointer to Input / Output Object
@@ -41,6 +38,21 @@ public:
 
 	//Adds a new component to the list of components
 	void AddComponent(Component* pComp);
+
+
+	// -------------------------------
+	//  ADDED:  Save & Load Functions
+	// -------------------------------
+
+	void ClearCircuit();                        // remove all components
+	void SaveAllComponents(ofstream& out);      // write components to file
+	void LoadAllComponents(ifstream& in);       // read components from file
+
+
+	// (Optional for wires/connections if your project uses them)
+	void SaveAllConnections(ofstream& out);
+	void LoadAllConnections(ifstream& in);
+
 
 	//destructor
 	~ApplicationManager();

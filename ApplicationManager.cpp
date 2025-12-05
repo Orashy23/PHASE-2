@@ -60,6 +60,14 @@ void ApplicationManager::ExecuteAction(ActionType ActType)
 	case LOAD:
 		pAct = new Load(this);
 		break;
+
+	case COPY:
+		pAct = new ActionCopy(this);
+		break;
+
+	case PASTE:
+		pAct = new ActionPaste(this);
+		break;
     }
 
     if (pAct)
@@ -175,5 +183,6 @@ void ApplicationManager::LoadAllConnections(ifstream& in)
 {
     // Same — fill later when connections exist
 }
+
 
 

@@ -4,7 +4,8 @@
 
 #include "Action.h"
 
-class Load : public Action
+class Load : 
+    public Action
 {
 private:
     string m_Filename;

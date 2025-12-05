@@ -27,11 +27,13 @@ public:
  // ---------------------------
     // Added for Copy/Paste
     // ---------------------------
-    Component* Clone() override; 
+
     AND2(const AND2 &other);             //Copy constructor
+    Component* Clone() override; 
 };
 
 
 #endif
+
 
 

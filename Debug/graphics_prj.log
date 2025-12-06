@@ -1,141 +1,18 @@
 ﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  main.cpp
-  Output.cpp
   Input.cpp
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(84,17): error C2065: 'ITM_NAND2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(85,17): error C2065: 'ITM_NOR2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(86,17): error C2065: 'ITM_XOR2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(87,17): error C2065: 'ITM_XNOR2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(88,17): error C2065: 'ITM_AND3': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(89,17): error C2065: 'ITM_NOR3': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(90,17): error C2065: 'ITM_XOR3': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(91,17): error C2065: 'ITM_INV': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(92,17): error C2065: 'ITM_BUFF': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(93,17): error C2065: 'ITM_SWITCH': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(94,17): error C2065: 'ITM_CONNECTION': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(95,17): error C2065: 'ITM_LED': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(96,17): error C2065: 'ITM_SIM_MODE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(113,26): error C2065: 'ITM_BTM_CNT': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(114,19): error C2065: 'ITM_UNDO_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(114,31): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(115,19): error C2065: 'ITM_REDO_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(115,31): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(116,19): error C2065: 'ITM_SAVE_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(116,31): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(117,19): error C2065: 'ITM_EDIT_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(117,31): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(118,19): error C2065: 'ITM_delete_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(118,33): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(119,19): error C2065: 'ITM_paste_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(119,32): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(120,19): error C2065: 'ITM_copy_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(120,31): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(121,19): error C2065: 'ITM_cut_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(121,30): error C3863: array type 'std::string [0]' is not assignable
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(125,22): error C2065: 'ITM_BTM_CNT': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(126,10): error C2668: 'window::DrawImage': ambiguous call to overloaded function
-      C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.h(307,7):
-      could be 'void window::DrawImage(const image &,const int,const int,const int,const int)'
-      C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.h(306,7):
-      or       'void window::DrawImage(const image *,const int,const int,const int,const int)'
-      C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(126,10):
-      while trying to match the argument list '(std::string [0], int, int, const int, const int)'
-  
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(146,17): error C2065: 'ITM_VALIDATE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(147,17): error C2065: 'ITM_SIMULATE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(148,17): error C2065: 'ITM_TRUTH_TABLE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(149,17): error C2065: 'ITM_DSN_MODE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(150,17): error C2065: 'ITM_CHANGE_SWITCH': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Output.cpp(151,17): error C2065: 'ITM_EXIT2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(71,9): error C2065: 'ITM_NAND2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(72,9): error C2065: 'ITM_NOR2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(73,9): error C2065: 'ITM_XOR2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(74,9): error C2065: 'ITM_XNOR2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(75,9): error C2065: 'ITM_AND3': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(76,9): error C2065: 'ITM_NOR3': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(77,9): error C2065: 'ITM_XOR3': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(78,9): error C2065: 'ITM_INV': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(79,9): error C2065: 'ITM_BUFF': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(79,26): error C2065: 'ADD_BUFF': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(80,9): error C2065: 'ITM_CONNECTION': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(81,9): error C2065: 'ITM_SWITCH': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(81,28): error C2065: 'ADD_SWITCH': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(82,9): error C2065: 'ITM_LED': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(84,9): error C2065: 'ITM_SIM_MODE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(104,9): error C2065: 'ITM_UNDO_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(105,9): error C2065: 'ITM_copy_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(105,28): error C2065: 'COPY': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(106,9): error C2065: 'ITM_paste_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(106,29): error C2065: 'PASTE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(107,9): error C2065: 'ITM_cut_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(107,27): error C2065: 'CUT': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(108,9): error C2065: 'ITM_REDO_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(109,9): error C2065: 'ITM_SAVE_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(110,9): error C2065: 'ITM_delete_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(111,9): error C2065: 'ITM_EDIT_B': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(111,28): error C2065: 'EDIT_LABEL': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(113,20): error C2065: 'BOT_TOOL': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(136,9): error C2065: 'ITM_VALIDATE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(136,30): error C2065: 'VALIDATE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(137,9): error C2065: 'ITM_SIMULATE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(137,30): error C2065: 'SIMULATE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(138,9): error C2065: 'ITM_TRUTH_TABLE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(138,33): error C2065: 'CREATE_TRUTH_TABLE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(139,9): error C2065: 'ITM_DSN_MODE': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(140,9): error C2065: 'ITM_CHANGE_SWITCH': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(140,35): error C2065: 'CHANGE_SWITCH': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(141,9): error C2065: 'ITM_EXIT2': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(142,20): error C2065: 'SIM_TOOL': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(159,11): error C2065: 'SIM_TOOL': undeclared identifier
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(71,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(72,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(73,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(74,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(75,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(76,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(77,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(78,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(79,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(80,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(81,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(82,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(84,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(104,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(105,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(106,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(107,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(108,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(109,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(110,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(111,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(114,4): warning C4065: switch statement contains 'default' but no 'case' labels
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(136,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(137,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(138,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(139,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(140,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(141,9): error C2051: case expression not constant
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(143,4): warning C4065: switch statement contains 'default' but no 'case' labels
   ApplicationManager.cpp
-  Pin.cpp
-  OutputPin.cpp
-  InputPin.cpp
-  Gate.cpp
-  Connection.cpp
-  Component.cpp
-  AND2.cpp
-  windowinput.cpp
-  mousequeue.cpp
-  keyqueue.cpp
-  image.cpp
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\image.cpp(115,29): warning C4018: '<': signed/unsigned mismatch
-  CMUgraphics.cpp
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.cpp(751,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.cpp(1164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.cpp(1171,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.cpp(1202,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.cpp(1210,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\moham\source\repos\Orashy23\PHASE-2\CMUgraphicsLib\CMUgraphics.cpp(1357,23): warning C4018: '>': signed/unsigned mismatch
-  auxil.cpp
-  AddANDgate2.cpp
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(58,14): error C2061: syntax error: identifier 'Save'
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(62,14): error C2061: syntax error: identifier 'Load'
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(66,14): error C2061: syntax error: identifier 'ActionCopy'
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(70,14): error C2061: syntax error: identifier 'ActionPaste'
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(138,22): error C2039: 'Save': is not a member of 'Component'
+      C:\Users\moham\source\repos\Orashy23\PHASE-2\Components\Component.h(8,7):
+      see declaration of 'Component'
+  
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(157,23): error C2512: 'AND2': no appropriate default constructor available
+C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(158,16): error C2039: 'Load': is not a member of 'AND2'
+      C:\Users\moham\source\repos\Orashy23\PHASE-2\Components\AND2.h(12,7):
+      see declaration of 'AND2'
+  
   Generating Code...
+C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(167,1): warning C4715: 'Input::GetUserAction': not all control paths return a value

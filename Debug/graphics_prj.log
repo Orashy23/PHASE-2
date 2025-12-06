@@ -1,5 +1,4 @@
 ﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  Input.cpp
   ApplicationManager.cpp
 C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(58,14): error C2061: syntax error: identifier 'Save'
 C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(62,14): error C2061: syntax error: identifier 'Load'
@@ -14,5 +13,3 @@ C:\Users\moham\source\repos\Orashy23\PHASE-2\ApplicationManager.cpp(158,16): err
       C:\Users\moham\source\repos\Orashy23\PHASE-2\Components\AND2.h(12,7):
       see declaration of 'AND2'
   
-  Generating Code...
-C:\Users\moham\source\repos\Orashy23\PHASE-2\GUI\Input.cpp(167,1): warning C4715: 'Input::GetUserAction': not all control paths return a value
